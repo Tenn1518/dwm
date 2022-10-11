@@ -1,8 +1,6 @@
 #include <X11/XF86keysym.h>
 #include "movestack.c"
 
-/* TODO: add mouse warp to center of focused window */
-
 /* appearance */
 static const unsigned int borderpx = 1; /* border pixel of windows */
 static const unsigned int snap = 32;    /* snap pixel */

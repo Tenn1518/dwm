@@ -1,5 +1,12 @@
 #+TITLE: my dynamic window manager config
-#+TODO: DEL(d)
+#+TODO: TODO(t) DEL(D) | DONE(d)
+* Inbox
+** TODO Volume/brightness scripts should use dunst UI
+can copy from old xmonad config
+
+add scripts either to dotfiles =~/.local/bin= or dwm repo
+** TODO Configure st
+Automatically attach to or create tmux server on opened window
 * Patches
 ** Applied
 *** [[https://dwm.suckless.org/patches/attachbottom/][attachbottom]]
@@ -17,8 +24,12 @@ Layout: Only two windows, master and first window on stack, are shown.
 *** [[https://dwm.suckless.org/patches/systray][systray]]
 System tray icons are displayed on the dwm bar.
 ** Planned additions
-*** [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
+*** TODO [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
 Key to focus the master window immediately.
-*** [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
+*** TODO [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
 (Hopefully) rotate clients in stack without disturbing master or focus.  This
 would be useful in the deck layout to "flip through" windows in the stack.
+*** TODO [[https://dwm.suckless.org/patches/smartborders][smartborders]]
+Remove border when fullscreen
+*** TODO tabindicators (?)
+*** TODO centeredmaster
