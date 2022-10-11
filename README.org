@@ -5,8 +5,14 @@
 can copy from old xmonad config
 
 add scripts either to dotfiles =~/.local/bin= or dwm repo
+** TODO Tags and default programs
++ 1 :: "emacs", spawns an emacsclient window if server running
++ 2 :: "web", spawns firefox window
++ 9 :: "media".  spotify or steam is constrained to spawn here only
 ** TODO Configure st
 Automatically attach to or create tmux server on opened window
+** TODO Rotate stack windows regardless of focus
+** TODO Replace cursorwarp with spawn/kill cursorwarp
 * Patches
 ** Applied
 *** [[https://dwm.suckless.org/patches/attachbottom/][attachbottom]]
@@ -15,8 +21,7 @@ New clients open at the bottom of the stack, instead of replacing master.
 Run the script =~/.local/share/dwm/autostart.sh= at startup.
 *** [[https://dwm.suckless.org/patches/cursorwarp][cursorwarp]]
 Cursor is automatically moved to middle of window whenever focus shifts.  Focus
-doesn't shift when creating/killing windows, but I might replace this diff with
-that diff.
+doesn't shift when creating/killing windows.
 *** [[https://dwm.suckless.org/patches/deck][deck]]
 Layout: Only two windows, master and first window on stack, are shown.
 *** [[https://dwm.suckless.org/patches/movestack][movestack]]
@@ -25,10 +30,10 @@ Layout: Only two windows, master and first window on stack, are shown.
 System tray icons are displayed on the dwm bar.
 *** [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
 Key to focus the master window immediately.
-** Planned additions
-*** TODO [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
+*** [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
 (Hopefully) rotate clients in stack without disturbing master or focus.  This
 would be useful in the deck layout to "flip through" windows in the stack.
+** Planned additions
 *** TODO [[https://dwm.suckless.org/patches/smartborders][smartborders]]
 Remove border when fullscreen
 *** TODO tabindicators (?)
