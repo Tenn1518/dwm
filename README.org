@@ -23,9 +23,9 @@ Layout: Only two windows, master and first window on stack, are shown.
 =s-S-J= and =s-S-K= to move windows around stack, a la xmonad.
 *** [[https://dwm.suckless.org/patches/systray][systray]]
 System tray icons are displayed on the dwm bar.
-** Planned additions
-*** TODO [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
+*** [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
 Key to focus the master window immediately.
+** Planned additions
 *** TODO [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
 (Hopefully) rotate clients in stack without disturbing master or focus.  This
 would be useful in the deck layout to "flip through" windows in the stack.
