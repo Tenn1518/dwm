@@ -12,8 +12,7 @@ doesn't shift when creating/killing windows, but I might replace this diff with
 that diff.
 *** [[https://dwm.suckless.org/patches/deck][deck]]
 Layout: Only two windows, master and first window on stack, are shown.
-*** DEL [[https://dwm.suckless.org/patches/movestack][movestack]]
-*** [[https://dwm.suckless.org/patches/rotatestack][rotatestack]]
+*** [[https://dwm.suckless.org/patches/movestack][movestack]]
 =s-S-J= and =s-S-K= to move windows around stack, a la xmonad.
 *** [[https://dwm.suckless.org/patches/systray][systray]]
 System tray icons are displayed on the dwm bar.
