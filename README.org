@@ -1,0 +1,25 @@
+#+TITLE: my dynamic window manager config
+#+TODO: DEL(d)
+* Patches
+** Applied
+*** [[https://dwm.suckless.org/patches/attachbottom/][attachbottom]]
+New clients open at the bottom of the stack, instead of replacing master.
+*** [[https://dwm.suckless.org/patches/autostart][autostart]]
+Run the script =~/.local/share/dwm/autostart.sh= at startup.
+*** [[https://dwm.suckless.org/patches/cursorwarp][cursorwarp]]
+Cursor is automatically moved to middle of window whenever focus shifts.  Focus
+doesn't shift when creating/killing windows, but I might replace this diff with
+that diff.
+*** [[https://dwm.suckless.org/patches/deck][deck]]
+Layout: Only two windows, master and first window on stack, are shown.
+*** DEL [[https://dwm.suckless.org/patches/movestack][movestack]]
+*** [[https://dwm.suckless.org/patches/rotatestack][rotatestack]]
+=s-S-J= and =s-S-K= to move windows around stack, a la xmonad.
+*** [[https://dwm.suckless.org/patches/systray][systray]]
+System tray icons are displayed on the dwm bar.
+** Planned additions
+*** [[https://dwm.suckless.org/patches/focusmaster/][focusmaster]]
+Key to focus the master window immediately.
+*** [[https://dwm.suckless.org/patches/inplacerotate/][inplacerotate]]
+(Hopefully) rotate clients in stack without disturbing master or focus.  This
+would be useful in the deck layout to "flip through" windows in the stack.
